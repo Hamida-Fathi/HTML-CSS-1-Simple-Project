@@ -1,0 +1,257 @@
+* {
+  margin: 0;
+  color: white;
+}
+
+body {
+  background-image: url("../img/pexels-wasim-mirzaie-.jpg");
+  background-repeat: no-repeat;
+
+  background-attachment: fixed;
+  background-size: cover;
+  width: 100%;
+  height: 250vh;
+}
+header {
+  height: 100%vh;
+}
+.continer {
+  background-color: rgba(95, 124, 142, 0.79);
+  padding: 0px;
+
+  width: 100%;
+  height: 700h;
+}
+.roboto-condensed100 {
+  margin-top: 5%;
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 900%;
+  font-style: normal;
+  color: white;
+}
+section > header {
+  border: 1px solid lightblue;
+  width: fit-content;
+  margin: 0 auto;
+  padding: 2em;
+  border-radius: 15px;
+  box-shadow: 2px 3px 4px rgb(74, 141, 214);
+}
+#top {
+  position: relative;
+  top: 100px;
+}
+header h1 {
+  font-size: 350%;
+  text-align: center;
+  padding-bottom: 30px;
+}
+header + p {
+  text-align: center;
+  padding-top: 50px;
+  font-size: 150%;
+  margin-top: 30px;
+  position: relative;
+  top: 100px;
+}
+header > img {
+  margin: 0 auto;
+}
+.mymenue a {
+  display: block;
+  text-decoration: none;
+  padding: 10px;
+  font-size: 2rem;
+}
+.mymenue a:hover {
+  background-color: rgb(53, 147, 169);
+}
+.mymenue li {
+  padding: 0;
+  list-style-type: none;
+}
+.mymenue ul {
+  flex-direction: row;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+.mymenue {
+  width: 99%;
+  margin-top: 25%;
+  margin-bottom: 5%;
+  background-color: rgba(156, 168, 178, 0.2);
+  position: sticky;
+  top: 10px;
+  border-radius: 3px;
+  margin: 20% auto;
+  box-shadow: 2px 3px 4px rgb(74, 141, 214);
+  border-color: white;
+}
+#guestHeader {
+  position: relative;
+  top: 305px;
+  width: 90%;
+  margin: 0 auto;
+}
+#event-details {
+  margin: 10% auto;
+
+  text-align: center;
+  height: 100vh;
+  padding: 20px;
+  font-size: x-large;
+  height: 50vh;
+  background-color: rgba(123, 137, 142, 0.1);
+  width: 60%;
+  border: 2px solid rgba(208, 218, 228, 0.3);
+  border-radius: 10px;
+  box-shadow: 2px 3px 4px rgb(74, 141, 214);
+}
+
+.h3 {
+  width: 100%;
+  text-align: center;
+  font-size: xx-large;
+  width: 100%;
+  background-color: rgba(95, 124, 142, 0.79);
+
+  text-shadow: 2px 1px 1px black;
+
+  text-shadow: 2px 1px 1px black;
+}
+.titleTestimonal {
+  font-size: xx-large;
+  text-shadow: 2px 1px 1px black;
+  text-align: center;
+  font-size: xx-large;
+}
+#guests {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+
+  background-color: rgb(144, 168, 176, 0.4);
+
+  margin: 20% auto;
+  border: 2px solid rgba(208, 218, 228, 0.3);
+  border-radius: 10px;
+  box-shadow: 2px 3px 4px rgb(74, 141, 214);
+  height: 50vh;
+  width: 90%;
+}
+.columns {
+  border-left: 2px solid rgba(208, 218, 228, 0.3);
+  border-radius: 10px;
+  height: 50vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+#guests img {
+  height: 150px;
+  width: 160px;
+  border-radius: 50%;
+  margin: 10px;
+  box-shadow: 2px 3px 4px rgb(74, 141, 214);
+}
+.guest-p {
+  text-align: center;
+}
+
+#gallery p {
+  font-size: 20px;
+  text-align: center;
+  margin: 30px;
+}
+#gallery {
+  background-color: rgba(148, 164, 170, 0.4);
+  width: 90%;
+  margin: 0 auto;
+  border-radius: 10px;
+  box-shadow: 2px 3px 4px rgb(74, 141, 214);
+}
+.photos {
+  display: grid;
+  gap: 20px;
+  grid-template-columns: 300px 300px 300px 300px;
+  grid-template-rows: 300px 300px;
+  justify-content: center;
+}
+
+#gallery img {
+  height: 300px;
+  width: 300px;
+}
+.ul li {
+  overflow: hidden;
+  list-style-type: none;
+
+  margin: 0 auto;
+  width: fit-content;
+  font-size: x-large;
+  padding: 10px;
+}
+#schedule {
+  margin: 20% auto;
+}
+
+section ul li:nth-child(2n):hover {
+  background-color: rgb(102, 130, 148);
+  width: 100%;
+  text-align: center;
+  cursor: pointer;
+}
+section ul li:nth-child(2n + 1):hover {
+  background-color: rgb(159, 174, 184);
+  width: 100%;
+  text-align: center;
+  cursor: pointer;
+}
+#testimonials {
+  background-color: rgb(144, 168, 176, 0.4);
+  border: 2px solid rgba(121, 127, 131, 0.755);
+  border-radius: 10px;
+  box-shadow: 2px 3px 2px rgb(73, 118, 169);
+  width: 80%;
+  box-sizing: border-box;
+  margin: 0 auto;
+  margin-bottom: 10%;
+  padding: 20px;
+  height: fit-content;
+}
+.testimonial1 {
+  border-bottom: 2px solid rgba(121, 127, 131, 0.755);
+  padding-top: 10px;
+}
+.quote {
+  text-align: center;
+  font-size: x-large;
+}
+.speaker {
+  margin: 0 auto;
+  text-align: center;
+}
+
+.montserrat148 {
+  font-family: sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 200;
+  font-style: normal;
+}
+#map {
+  text-align: center;
+  padding: 20px;
+  border: 2px solid rgb(108, 133, 150);
+  font-size: x-large;
+}
+#last {
+  padding: 20px;
+  font-size: small;
+}
+#form1 {
+  font-size: 25px;
+  text-align: center;
+  margin: 10%;
+}
